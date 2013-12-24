@@ -1,0 +1,12 @@
+<div class="navbar navbar-fixed-top">
+  <ul class="nav nav-center">
+    <li><%= link_to "Home", home_pages_path %></li>
+    <li><%= link_to "Top Comments",
+                  "#top-comments-modal",
+                  :class => "top-comments-modal",
+                  :role => "button",
+                  :data => { :toggle => "modal" } %></li>
+    <li><%= link_to "Videos", videos_pages_path %></li>
+  </ul>
+  <span class="pull-right">Made with <%= link_to "Love", "http://tomprats.com/love" %></span>
+</div>
